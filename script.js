@@ -34,7 +34,7 @@ async function tirarUmaCartaDoBaralho() {
     if (carta.cards.length > 0) {
         document.getElementById('carta').src = carta.cards[0].image;
     } else {
-        console.log("Acabaram as cartas no baralho.");
+        alert("Acabaram as cartas no baralho.");
     }
 }
 
